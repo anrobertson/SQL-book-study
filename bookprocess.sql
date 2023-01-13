@@ -163,6 +163,28 @@ FROM "books";
 SELECT *
 FROM "publication_info";
 
+-- Creating a larger table for the rating
+
+CREATE TABLE "high_to_low" 
+AS SELECT * 
+FROM "books" 
+ORDER BY "average_rating" DESC;
+
+SELECT *
+FROM "high_to_low";
+
+
+
+CREATE TABLE "low_to_high" 
+AS SELECT * 
+FROM "books" 
+ORDER BY "average_rating" ASC;
+
+SELECT *
+FROM "low_to_high";
+
+
+
 
 
 
