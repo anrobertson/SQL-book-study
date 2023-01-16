@@ -2,7 +2,7 @@
 
 ## Project Description
 This study was used to determine which books held popularity amoung the data found in the provided CSV file.
-*Disclaimer- Due to Goodreads no longer issuing new developer keys for their public developer API, this information was last updated December 8th, 2020. 
+<br>*Disclaimer- Due to Goodreads no longer issuing new developer keys for their public developer API, this information was last updated December 8th, 2020. 
 
 ## Technologies used:
 * SQL
